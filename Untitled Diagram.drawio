@@ -1,9 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T12:32:18.854Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.0" etag="yBwazvPeSzQ3r1LdxUEK" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T12:35:44.328Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="nZcUcU0Zz05n4vptZajz" version="22.1.0" type="github">
   <diagram name="Page-1" id="R1LuHA32e3td5miD3HTt">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tfBbmxYE5tT1refvhSX7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tfBbmxYE5tT1refvhSX7-1" target="tfBbmxYE5tT1refvhSX7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tfBbmxYE5tT1refvhSX7-1" value="Order Food Client" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tfBbmxYE5tT1refvhSX7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tfBbmxYE5tT1refvhSX7-2" target="tfBbmxYE5tT1refvhSX7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tfBbmxYE5tT1refvhSX7-2" value="Send order to backend" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tfBbmxYE5tT1refvhSX7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tfBbmxYE5tT1refvhSX7-3" target="tfBbmxYE5tT1refvhSX7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tfBbmxYE5tT1refvhSX7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tfBbmxYE5tT1refvhSX7-3" target="tfBbmxYE5tT1refvhSX7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tfBbmxYE5tT1refvhSX7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tfBbmxYE5tT1refvhSX7-3" target="tfBbmxYE5tT1refvhSX7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tfBbmxYE5tT1refvhSX7-3" value="Kafka (Stream data)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tfBbmxYE5tT1refvhSX7-6" value="Email" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tfBbmxYE5tT1refvhSX7-7" value="Analytics" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="320" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tfBbmxYE5tT1refvhSX7-8" value="Transactions" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tfBbmxYE5tT1refvhSX7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.661;entryY=1.11;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tfBbmxYE5tT1refvhSX7-8" target="tfBbmxYE5tT1refvhSX7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tfBbmxYE5tT1refvhSX7-14" value="confirmed orders" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tfBbmxYE5tT1refvhSX7-13">
+          <mxGeometry x="0.0976" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
