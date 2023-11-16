@@ -3,5 +3,5 @@
 ## steps to open unzip the file
 - Navigate to the folder you dowloaded the file in
 - right click and select open in terminal and enter the following commands
-  tar -xzf kafka_2.13-3.6.0.tgz (enter relevant version if different from 2.13-3.6.0.tgz)
-  cd kafka_2.13-3.6.0
+  -tar -xzf kafka_2.13-3.6.0.tgz (enter relevant version if different from 2.13-3.6.0.tgz)
+  -cd kafka_2.13-3.6.0
